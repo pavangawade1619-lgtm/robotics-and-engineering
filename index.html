@@ -1,0 +1,406 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>RoboTech | Robotics & Engineering</title>
+  <meta name="description" content="Explore robotics, AI, automation, and innovative engineering projects.">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-slate-950 text-white">
+
+  <!-- Background effects -->
+  <div class="background-glow"></div>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <nav class="container mx-auto px-6 py-5 flex justify-between items-center">
+
+      <a href="#home" class="logo">
+        <span class="logo-icon">✳</span> RoboTech<span class="accent">.</span>
+      </a>
+
+      <button id="menu-toggle"
+        class="menu-toggle md:hidden"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="nav-links">
+        ☰
+      </button>
+
+      <div id="nav-links" class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="nav-button">Let's Talk ↗</a>
+      </div>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero section -->
+    <section id="home" class="hero container mx-auto px-6">
+
+      <div class="hero-content reveal">
+        <span class="eyebrow">
+          <span class="status-dot"></span>
+          ENGINEERING THE FUTURE
+        </span>
+
+        <h1>
+          Building a smarter
+          <span class="gradient-text">world with robotics.</span>
+        </h1>
+
+        <p class="hero-description">
+          We combine robotics, artificial intelligence, and engineering
+          to transform bold ideas into intelligent real-world solutions.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="primary-button">
+            Explore Projects <span>↗</span>
+          </a>
+
+          <a href="#about" class="secondary-button">
+            Discover More ↓
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <strong>25<span>+</span></strong>
+            <small>Projects</small>
+          </div>
+          <div>
+            <strong>08<span>+</span></strong>
+            <small>Technologies</small>
+          </div>
+          <div>
+            <strong>100<span>%</span></strong>
+            <small>Innovation</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="visual-label label-top">
+          <span class="status-dot"></span>
+          SYSTEM ONLINE
+        </div>
+
+        <img
+          src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1000&q=85"
+          alt="Modern humanoid robot"
+          class="robot-image"
+        >
+
+        <div class="visual-card">
+          <span class="mini-icon">⌘</span>
+          <div>
+            <strong>Intelligent Systems</strong>
+            <small>Designed for tomorrow</small>
+          </div>
+          <span class="live-dot"></span>
+        </div>
+
+        <div class="floating-code">
+          <span>AI</span>
+          <span>ROBOTICS</span>
+          <span>01</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Technology strip -->
+    <section class="technology-strip">
+      <div class="container mx-auto px-6">
+        <p>POWERED BY INNOVATION</p>
+        <div class="technology-list">
+          <span>⌘ Artificial Intelligence</span>
+          <span>◈ Automation</span>
+          <span>⌬ Embedded Systems</span>
+          <span>◎ Machine Learning</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="section container mx-auto px-6">
+
+      <div class="section-heading reveal">
+        <span class="section-tag">01 / ABOUT US</span>
+        <h2>Engineering ideas into <span class="gradient-text">reality.</span></h2>
+        <p>
+          From the first sketch to the final prototype, we explore
+          technology that solves problems and creates new possibilities.
+        </p>
+      </div>
+
+      <div class="about-grid">
+
+        <div class="about-image reveal">
+          <img
+            src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1000&q=85"
+            alt="Engineering laboratory and technical equipment"
+            loading="lazy"
+          >
+          <div class="image-caption">
+            <span class="status-dot"></span>
+            BUILT THROUGH EXPERIMENTATION
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <span class="section-tag">OUR MISSION</span>
+          <h3>Where human creativity meets intelligent machines.</h3>
+          <p>
+            Robotics is more than building machines. It is the art of
+            connecting mechanical design, electronics, programming,
+            and intelligent decision-making.
+          </p>
+
+          <div class="feature-list">
+            <div class="feature-item">
+              <span class="feature-icon">↗</span>
+              <div>
+                <strong>Practical Innovation</strong>
+                <p>Turn concepts into working prototypes.</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <span class="feature-icon">⌘</span>
+              <div>
+                <strong>Smart Engineering</strong>
+                <p>Integrate software, hardware, and automation.</p>
+              </div>
+            </div>
+
+            <div class="feature-item">
+              <span class="feature-icon">◇</span>
+              <div>
+                <strong>Continuous Learning</strong>
+                <p>Explore emerging tools and technologies.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#services" class="text-link">Explore our capabilities ↗</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section services-section">
+      <div class="container mx-auto px-6">
+
+        <div class="section-heading centered reveal">
+          <span class="section-tag">02 / WHAT WE DO</span>
+          <h2>Our engineering <span class="gradient-text">universe.</span></h2>
+          <p>Four disciplines. Endless possibilities.</p>
+        </div>
+
+        <div class="service-grid">
+
+          <article class="service-card reveal">
+            <div class="service-icon">⚙</div>
+            <span class="card-number">01</span>
+            <h3>Robotics Design</h3>
+            <p>Explore robot mechanisms, movement, sensors, and control systems.</p>
+            <a href="#projects">Explore <span>↗</span></a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">⌘</div>
+            <span class="card-number">02</span>
+            <h3>Artificial Intelligence</h3>
+            <p>Discover intelligent systems, computer vision, and machine learning.</p>
+            <a href="#projects">Explore <span>↗</span></a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">⌬</div>
+            <span class="card-number">03</span>
+            <h3>Embedded Systems</h3>
+            <p>Connect microcontrollers, electronics, sensors, and software.</p>
+            <a href="#projects">Explore <span>↗</span></a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon">◎</div>
+            <span class="card-number">04</span>
+            <h3>Automation</h3>
+            <p>Develop efficient control systems and smart industrial solutions.</p>
+            <a href="#projects">Explore <span>↗</span></a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section container mx-auto px-6">
+
+      <div class="projects-heading reveal">
+        <div>
+          <span class="section-tag">03 / SELECTED WORK</span>
+          <h2>Ideas in <span class="gradient-text">motion.</span></h2>
+        </div>
+        <p>Experimental builds, engineering concepts, and intelligent machines.</p>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img
+              src="https://images.unsplash.com/photo-1561557944-6e7860d1a7eb?auto=format&fit=crop&w=900&q=85"
+              alt="Industrial robotic arm"
+              loading="lazy"
+            >
+            <span class="project-index">PROJECT / 001</span>
+          </div>
+          <div class="project-info">
+            <div>
+              <span class="project-category">INDUSTRIAL AUTOMATION</span>
+              <h3>Precision Robotic Arm</h3>
+            </div>
+            <a href="#contact" class="project-arrow" aria-label="Discuss robotic arm project">↗</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img
+              src="https://images.unsplash.com/photo-1535378620166-273708d44e4c?auto=format&fit=crop&w=900&q=85"
+              alt="Robotics prototype"
+              loading="lazy"
+            >
+            <span class="project-index">PROJECT / 002</span>
+          </div>
+          <div class="project-info">
+            <div>
+              <span class="project-category">AUTONOMOUS SYSTEMS</span>
+              <h3>Intelligent Mobile Robot</h3>
+            </div>
+            <a href="#contact" class="project-arrow" aria-label="Discuss mobile robot project">↗</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img
+              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=900&q=85"
+              alt="Engineering prototype development"
+              loading="lazy"
+            >
+            <span class="project-index">PROJECT / 003</span>
+          </div>
+          <div class="project-info">
+            <div>
+              <span class="project-category">SMART ENGINEERING</span>
+              <h3>Next-Gen Prototyping</h3>
+            </div>
+            <a href="#contact" class="project-arrow" aria-label="Discuss prototyping project">↗</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+      <div class="container mx-auto px-6 contact-grid">
+
+        <div class="contact-content reveal">
+          <span class="section-tag">04 / GET IN TOUCH</span>
+          <h2>Have an idea?<br><span class="gradient-text">Let's engineer it.</span></h2>
+          <p>
+            Have a robotics concept, engineering project, or collaboration
+            in mind? Tell us what you want to build.
+          </p>
+          <div class="contact-note">
+            <span class="status-dot"></span>
+            OPEN TO IDEAS & COLLABORATIONS
+          </div>
+        </div>
+
+        <form id="contact-form" class="contact-form reveal">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text"
+            placeholder="Enter your name" required minlength="2">
+
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email"
+            placeholder="you@example.com" required>
+
+          <label for="subject">Project type</label>
+          <select id="subject" name="subject" required>
+            <option value="">Select a project</option>
+            <option>Robotics</option>
+            <option>Artificial Intelligence</option>
+            <option>Embedded Systems</option>
+            <option>Automation</option>
+            <option>Other</option>
+          </select>
+
+          <label for="message">Tell us about your idea</label>
+          <textarea id="message" name="message" rows="4"
+            placeholder="Describe your project..." required minlength="10"></textarea>
+
+          <button type="submit" class="primary-button form-button">
+            Send Message <span>↗</span>
+          </button>
+
+          <p id="form-status" class="form-status" aria-live="polite"></p>
+          <p class="form-note">
+            Demo form only — connect a backend to receive real messages.
+          </p>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container mx-auto px-6 footer-inner">
+      <a href="#home" class="logo">
+        <span class="logo-icon">✳</span> RoboTech<span class="accent">.</span>
+      </a>
+      <p>Building ideas. Engineering tomorrow.</p>
+      <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    </div>
+    <div class="copyright">
+      © <span id="year"></span> RoboTech. Built with curiosity and code.
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
